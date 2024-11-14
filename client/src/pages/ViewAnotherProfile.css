@@ -1,0 +1,74 @@
+/* Profile Container */
+.profile-container {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Profile Image */
+  .profile-img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  /* Profile Header */
+  .profile-header {
+    font-size: 2em;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Profile Details */
+  .profile-details {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  /* Buttons Container */
+  .buttons-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Request Button */
+  .request-button {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .request-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Message Button */
+  .message-button {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .message-button:hover {
+    background-color: #e53935;
+  }
+  
+  /* Error Message */
+  .error-message {
+    margin-top: 20px;
+    color: #e53935;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  

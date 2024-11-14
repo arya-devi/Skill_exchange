@@ -1,0 +1,26 @@
+/* Styles for Carousel Component */
+.carousel-container {
+  background-color: #31511E;  /* Dark green background for carousel */
+  text-align: center;
+  padding: 60px 0;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+  padding: 20px;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  scroll-snap-align: center;
+}
+
+.carousel-image {
+  width: 25%;
+  max-height: 550px;
+  object-fit: cover;
+  border-radius: 10px;
+}

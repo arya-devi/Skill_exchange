@@ -1,0 +1,92 @@
+.profile-container {
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  .profile-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .profile-card {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-image {
+    margin-bottom: 1rem;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .profile-actions {
+    margin-top: 1rem;
+  }
+  
+  .profile-actions button {
+    padding: 0.5rem 1.5rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .edit-form {
+    margin-top: 2rem;
+    text-align: left;
+  }
+  
+  .edit-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .edit-form input,
+  .edit-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .edit-form button {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4CC9FE;
+    color: white;
+    margin-right: 1rem;
+  }
+  
+  .cancel-button {
+    background-color: #999;
+    margin-top: 10px;
+  }
+  
+  .skill-box {
+    display: inline-block;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0.3rem 0.6rem;
+    margin: 0.2rem;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  

@@ -1,0 +1,120 @@
+/* Container styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Title styling */
+.container h1 {
+    text-align: center;
+    color: #2b3e50;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    background-color: #f7f9fb;
+    border: 1px solid #e0e4e8;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form h5 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #2b3e50;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #2b3e50;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d0d6db;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+button[type="submit"] {
+    background-color: #4b8cbf;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #417ba3;
+}
+
+/* Skills card styling */
+.skill-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e4e8;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card h5 {
+    color: #2b3e50;
+    font-size: 18px;
+    margin: 0 0 5px;
+}
+
+.skill-card p {
+    margin: 5px 0;
+    color: #6b7680;
+    font-size: 14px;
+}
+
+.skill-card small {
+    display: block;
+    color: #a0a7af;
+    font-size: 13px;
+}
+
+/* Skill badge styling */
+.skill-price {
+    color: #fff;
+    background-color: #4b8cbf;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Buttons styling */
+.skill-card .button-group {
+    margin-top: 10px;
+}
+
+.skill-card button {
+    background-color: #2b3e50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.skill-card button:hover {
+    background-color: #475a6b;
+}
